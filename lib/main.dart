@@ -6,7 +6,6 @@ import 'di/auth_injection.dart';
 import 'di/injection.dart';
 
 final getIt = GetIt.instance;
-
 void main() {
   // Setup dependencies using get_it
   setupAuthDependencies();
@@ -39,6 +38,8 @@ class _MyAppState extends State<MyApp> {
 
   @override
   Widget build(BuildContext context) {
+    print("asdasd");
+
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Aiwel Sign-In',
